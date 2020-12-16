@@ -1,4 +1,4 @@
-package org.easyone.springmvc.examples.service;
+package org.easyone.examples.springmvc.service;
 
 import org.springframework.stereotype.Service;
 

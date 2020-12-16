@@ -3,8 +3,8 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 
-	<groupId>org.easyone.springmvc</groupId>
-	<artifactId>examples</artifactId>
+	<groupId>org.easyone.examples</groupId>
+	<artifactId>springmvc</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>war</packaging>
 
@@ -16,6 +16,8 @@
 		<slf4j.version>1.7.25</slf4j.version>
 		<log4j.version>2.11.0</log4j.version>
 		<tomcat.version>8.5.38</tomcat.version>
+		<maven.compiler.target>1.8</maven.compiler.target>
+		<maven.compiler.source>1.8</maven.compiler.source>
 	</properties>
 
 	<dependencies>

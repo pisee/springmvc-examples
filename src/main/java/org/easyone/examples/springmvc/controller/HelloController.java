@@ -1,6 +1,6 @@
-package org.easyone.springmvc.examples.controller;
+package org.easyone.examples.springmvc.controller;
 
-import org.easyone.springmvc.examples.service.HelloService;
+import org.easyone.examples.springmvc.service.HelloService;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;

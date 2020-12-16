@@ -22,7 +22,7 @@
 
 	<!-- spring servlet config -->
 	<servlet>
-		<servlet-name>dispatcherServlet</servlet-name>
+		<servlet-name>dispatcherServlet1</servlet-name>
 		<servlet-class>org.springframework.web.servlet.DispatcherServlet</servlet-class>
 		<init-param>
 			<param-name>contextConfigLocation</param-name>
@@ -31,8 +31,23 @@
 		<load-on-startup>1</load-on-startup>
 	</servlet>
 	<servlet-mapping>
-		<servlet-name>dispatcherServlet</servlet-name>
+		<servlet-name>dispatcherServlet1</servlet-name>
 		<url-pattern>/</url-pattern>
+	</servlet-mapping>
+
+	<!-- spring servlet config -->
+	<servlet>
+		<servlet-name>dispatcherServlet2</servlet-name>
+		<servlet-class>org.springframework.web.servlet.DispatcherServlet</servlet-class>
+		<init-param>
+			<param-name>contextConfigLocation</param-name>
+			<param-value>/WEB-INF/spring/servlet/servlet-context.xml</param-value>
+		</init-param>
+		<load-on-startup>2</load-on-startup>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>dispatcherServlet2</servlet-name>
+		<url-pattern>*.do</url-pattern>
 	</servlet-mapping>
 
 	<welcome-file-list>
